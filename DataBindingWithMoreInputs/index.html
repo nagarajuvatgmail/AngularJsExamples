@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Data Binding With More Inputs</title>
+    <script src="../AngularJs/angular.min.js"></script>
+	<script src="js/app.js"></script>
+	<style type="text/css">
+		div.maindiv{
+			padding: 15px;
+			border: 1px solid #ddd;
+		}
+		input{
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+	</style>
+  </head>
+  <body ng-app="myApp">
+    <div class="maindiv">
+		<h1>Data Binding with more inputs</h1>
+		Name:<input ng-model="name" type="text"/>
+		<br>
+		Name:<input ng-model="name" type="text"/>
+		<br>
+		Name:<input ng-model="name" type="text"/>
+		<br>
+		Hello {{name}}
+	</div>
+  </body>
+</html>
