@@ -1,0 +1,27 @@
+label {
+	float: left;
+	width: 100px;
+}
+div.maindiv{
+	padding: 15px;
+	border: 1px solid #ddd;
+}
+input{
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+table, td, th {
+	border: 1px solid #ddd;
+	text-align: left;
+}
+table {
+	border-collapse: collapse;
+	width: 50%;
+}
+th {
+	background-color: #4CAFD0;
+	color: white;
+}
+th, td {
+	padding: 5px;
+}
